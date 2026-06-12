@@ -1,51 +1,50 @@
+## index.html
+
+```html
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>AGRINHO 2026 | Recuperação de Áreas Degradadas</title>
+  <title>Future Soil</title>
 
   <link rel="stylesheet" href="style.css">
 
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-  >
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
 </head>
 
 <body>
 
-  <!-- HEADER -->
+  <!-- NAVBAR -->
 
   <header class="header">
 
     <div class="logo">
-      <i class="fa-solid fa-leaf"></i>
-      <h2>AGRINHO 2026</h2>
+      <i class="fa-solid fa-earth-americas"></i>
+      <span>Future Soil</span>
     </div>
 
-    <nav class="navbar" id="navbar">
+    <nav class="navbar">
 
       <a href="#inicio">Início</a>
-      <a href="#problema">Problema</a>
-      <a href="#solucoes">Soluções</a>
+      <a href="#sobre">Sobre</a>
       <a href="#impactos">Impactos</a>
-      <a href="#contato">Contato</a>
+      <a href="#galeria">Galeria</a>
 
     </nav>
 
-    <div class="buttons-header">
-
-      <button id="darkModeToggle">
-        <i class="fa-solid fa-moon"></i>
-      </button>
-
-      <button class="menu-btn" id="menuBtn">
-        <i class="fa-solid fa-bars"></i>
-      </button>
-
-    </div>
+    <button id="menu-btn">
+      <i class="fa-solid fa-bars"></i>
+    </button>
 
   </header>
 
@@ -53,155 +52,74 @@
 
   <section class="hero" id="inicio">
 
-    <div class="hero-overlay"></div>
+    <img
+      src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1800&auto=format&fit=crop"
+      class="hero-bg">
+
+    <div class="overlay"></div>
 
     <div class="hero-content">
 
       <span class="hero-tag">
-        Sustentabilidade • Agricultura • Futuro
+        Sustainability • Innovation • Future
       </span>
 
       <h1>
-        Recuperar áreas degradadas é garantir o futuro da agricultura
+        Recuperar áreas degradadas é reconstruir o futuro
       </h1>
 
       <p>
-        O solo é um dos recursos mais importantes para a produção agrícola.
-        Quando ocorre desmatamento, queimadas, erosão e uso incorreto da terra,
-        grandes áreas se tornam improdutivas e prejudicam o meio ambiente.
-        A recuperação dessas áreas devolve nutrientes ao solo, protege os recursos
-        naturais e melhora a qualidade da produção agrícola.
+        A tecnologia e a sustentabilidade trabalham juntas para transformar
+        solos degradados em novas oportunidades para a agricultura moderna.
       </p>
 
-      <div class="hero-buttons">
-
-        <a href="#problema" class="btn-primary">
-          Entender o Problema
-        </a>
-
-        <a href="#solucoes" class="btn-secondary">
-          Ver Soluções
-        </a>
-
-      </div>
+      <a href="#sobre" class="hero-button">
+        Explorar Projeto
+      </a>
 
     </div>
 
   </section>
 
-  <!-- PROBLEMA -->
+  <!-- SOBRE -->
 
-  <section class="problema" id="problema">
+  <section class="about" id="sobre">
 
-    <div class="section-text">
-
-      <span class="section-mini-title">
-        O QUE SÃO ÁREAS DEGRADADAS?
-      </span>
-
-      <h2>
-        O desgaste do solo afeta diretamente a agricultura
-      </h2>
-
-      <p>
-        Áreas degradadas são regiões que perderam parte de sua capacidade
-        natural devido à ação humana ou fenômenos naturais. Isso pode acontecer
-        por queimadas, desmatamento, excesso de agrotóxicos, erosão e uso inadequado
-        da terra.
-      </p>
-
-      <p>
-        Quando o solo perde nutrientes e cobertura vegetal, a produção agrícola
-        diminui, ocorre desperdício de água e o ambiente sofre grandes impactos.
-        Muitas famílias que dependem da agricultura acabam sendo prejudicadas.
-      </p>
-
-    </div>
-
-    <div class="section-image">
+    <div class="about-image">
 
       <img
-        src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=1400&auto=format&fit=crop"
-        alt="Área degradada"
-      >
+        src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1400&auto=format&fit=crop">
 
     </div>
 
-  </section>
+    <div class="about-content">
 
-  <!-- SOLUÇÕES -->
-
-  <section class="solucoes" id="solucoes">
-
-    <div class="section-image">
-
-      <img
-        src="https://images.unsplash.com/photo-1464226184884-fa280b87c399?q=80&w=1400&auto=format&fit=crop"
-        alt="Agricultura sustentável"
-      >
-
-    </div>
-
-    <div class="section-text">
-
-      <span class="section-mini-title">
-        RECUPERAÇÃO AMBIENTAL
+      <span class="section-tag">
+        SOBRE O PROJETO
       </span>
 
       <h2>
-        Como recuperar áreas degradadas?
+        Sustentabilidade conectada com inovação agrícola
       </h2>
 
       <p>
-        A recuperação do solo envolve técnicas sustentáveis que ajudam a devolver
-        fertilidade e equilíbrio ao ambiente. Essas ações permitem que a área volte
-        a produzir alimentos sem causar mais danos à natureza.
+        Áreas degradadas afetam o meio ambiente, a biodiversidade
+        e a produção agrícola. A recuperação do solo permite criar
+        sistemas agrícolas mais eficientes, sustentáveis e preparados
+        para o futuro.
       </p>
 
-      <div class="cards-info">
+      <div class="glass-card">
 
-        <div class="info-card">
+        <i class="fa-solid fa-seedling"></i>
 
-          <i class="fa-solid fa-seedling"></i>
+        <div>
 
-          <div>
-            <h3>Reflorestamento</h3>
+          <h3>Recuperação Inteligente</h3>
 
-            <p>
-              O plantio de árvores ajuda a proteger o solo,
-              melhorar o clima e recuperar a biodiversidade.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="info-card">
-
-          <i class="fa-solid fa-water"></i>
-
-          <div>
-            <h3>Uso Consciente da Água</h3>
-
-            <p>
-              Técnicas modernas de irrigação evitam desperdícios
-              e ajudam na preservação dos recursos hídricos.
-            </p>
-          </div>
-
-        </div>
-
-        <div class="info-card">
-
-          <i class="fa-solid fa-tractor"></i>
-
-          <div>
-            <h3>Tecnologia no Campo</h3>
-
-            <p>
-              Máquinas e tecnologias sustentáveis aumentam
-              a produtividade sem prejudicar o meio ambiente.
-            </p>
-          </div>
+          <p>
+            Técnicas modernas ajudam a restaurar o equilíbrio natural do solo.
+          </p>
 
         </div>
 
@@ -211,58 +129,89 @@
 
   </section>
 
-  <!-- IMPACTOS -->
+  <!-- CARDS -->
 
-  <section class="impactos" id="impactos">
+  <section class="cards-section" id="impactos">
 
-    <div class="impactos-content">
+    <div class="section-center">
 
-      <span class="section-mini-title">
-        BENEFÍCIOS
+      <span class="section-tag">
+        IMPACTOS POSITIVOS
       </span>
 
       <h2>
-        Os impactos positivos da recuperação ambiental
+        Soluções sustentáveis para um novo futuro
       </h2>
 
-      <p>
-        Recuperar áreas degradadas traz benefícios para o meio ambiente,
-        para os agricultores e para toda a sociedade. Além de melhorar
-        a qualidade da produção agrícola, também ajuda na preservação
-        da água, do clima e da biodiversidade.
-      </p>
+    </div>
 
-      <div class="impactos-grid">
+    <div class="cards-grid">
 
-        <div class="impacto-box">
-          <h3>+ Produção</h3>
-          <p>
-            Solos recuperados aumentam a produtividade agrícola.
-          </p>
-        </div>
+      <div class="card">
 
-        <div class="impacto-box">
-          <h3>+ Sustentabilidade</h3>
-          <p>
-            Técnicas corretas ajudam a preservar o meio ambiente.
-          </p>
-        </div>
+        <i class="fa-solid fa-tree"></i>
 
-        <div class="impacto-box">
-          <h3>+ Água</h3>
-          <p>
-            A recuperação do solo melhora a absorção e conservação da água.
-          </p>
-        </div>
+        <h3>Reflorestamento</h3>
 
-        <div class="impacto-box">
-          <h3>+ Futuro</h3>
-          <p>
-            Garantir solos saudáveis é garantir alimento para as próximas gerações.
-          </p>
-        </div>
+        <p>
+          Recuperação ambiental através da preservação da natureza.
+        </p>
 
       </div>
+
+      <div class="card">
+
+        <i class="fa-solid fa-water"></i>
+
+        <h3>Economia de Água</h3>
+
+        <p>
+          Irrigação inteligente reduz desperdícios e protege recursos.
+        </p>
+
+      </div>
+
+      <div class="card">
+
+        <i class="fa-solid fa-microchip"></i>
+
+        <h3>Tecnologia</h3>
+
+        <p>
+          Sensores e inovação aumentam a produtividade sustentável.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- STATS -->
+
+  <section class="stats">
+
+    <div class="stat-box">
+
+      <h2 class="counter" data-target="1200">0</h2>
+
+      <p>Hectares Recuperados</p>
+
+    </div>
+
+    <div class="stat-box">
+
+      <h2 class="counter" data-target="85">0</h2>
+
+      <p>Redução da Degradação</p>
+
+    </div>
+
+    <div class="stat-box">
+
+      <h2 class="counter" data-target="300">0</h2>
+
+      <p>Projetos Sustentáveis</p>
 
     </div>
 
@@ -270,16 +219,16 @@
 
   <!-- GALERIA -->
 
-  <section class="galeria">
+  <section class="gallery" id="galeria">
 
     <div class="section-center">
 
-      <span class="section-mini-title">
+      <span class="section-tag">
         GALERIA
       </span>
 
       <h2>
-        Sustentabilidade e agricultura caminhando juntas
+        Natureza e inovação conectadas
       </h2>
 
     </div>
@@ -287,66 +236,16 @@
     <div class="gallery-grid">
 
       <img
-        src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop"
-        alt="Plantação"
-      >
+        src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=1200&auto=format&fit=crop">
 
       <img
-        src="https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=1200&auto=format&fit=crop"
-        alt="Natureza"
-      >
+        src="https://images.unsplash.com/photo-1492496913980-501348b61469?q=80&w=1200&auto=format&fit=crop">
 
       <img
-        src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1200&auto=format&fit=crop"
-        alt="Tecnologia agrícola"
-      >
+        src="https://images.unsplash.com/photo-1523741543316-beb7fc7023d8?q=80&w=1200&auto=format&fit=crop">
 
       <img
-        src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1200&auto=format&fit=crop"
-        alt="Sustentabilidade"
-      >
-
-    </div>
-
-  </section>
-
-  <!-- CONTATO -->
-
-  <section class="contato" id="contato">
-
-    <div class="contato-container">
-
-      <div class="contato-text">
-
-        <span class="section-mini-title">
-          CONTATO
-        </span>
-
-        <h2>
-          Faça parte dessa conscientização
-        </h2>
-
-        <p>
-          A preservação do meio ambiente depende das ações realizadas hoje.
-          Compartilhar conhecimento é uma das formas mais importantes de
-          construir um futuro sustentável.
-        </p>
-
-      </div>
-
-      <form class="contact-form">
-
-        <input type="text" placeholder="Seu Nome">
-
-        <input type="email" placeholder="Seu Email">
-
-        <textarea placeholder="Sua Mensagem"></textarea>
-
-        <button type="submit">
-          Enviar Mensagem
-        </button>
-
-      </form>
+        src="https://images.unsplash.com/photo-1472396961693-142e6e269027?q=80&w=1200&auto=format&fit=crop">
 
     </div>
 
@@ -356,30 +255,10 @@
 
   <footer class="footer">
 
-    <h2>AGRINHO 2026</h2>
+    <h2>Future Soil</h2>
 
     <p>
-      Recuperação de áreas degradadas para nova produção agrícola.
-    </p>
-
-    <div class="social-icons">
-
-      <a href="#">
-        <i class="fa-brands fa-instagram"></i>
-      </a>
-
-      <a href="#">
-        <i class="fa-brands fa-facebook"></i>
-      </a>
-
-      <a href="#">
-        <i class="fa-brands fa-youtube"></i>
-      </a>
-
-    </div>
-
-    <p class="copy">
-      © 2026 - Projeto desenvolvido para conscientização ambiental.
+      Innovation and sustainability for a better future.
     </p>
 
   </footer>
@@ -387,4 +266,338 @@
   <script src="script.js"></script>
 
 </body>
+
 </html>
+```
+
+---
+
+## style.css
+
+```css
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  scroll-behavior:smooth;
+}
+
+body{
+  font-family:'Poppins',sans-serif;
+  background:#0b0f14;
+  color:white;
+  overflow-x:hidden;
+}
+
+img{
+  width:100%;
+  display:block;
+}
+
+.header{
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+  padding:25px 8%;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:1000;
+  background:rgba(0,0,0,0.2);
+  backdrop-filter:blur(12px);
+}
+
+.logo{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  font-size:1.3rem;
+  font-weight:700;
+}
+
+.logo i{
+  color:#4ade80;
+}
+
+.navbar{
+  display:flex;
+  gap:35px;
+}
+
+.navbar a{
+  color:white;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.navbar a:hover{
+  color:#4ade80;
+}
+
+#menu-btn{
+  display:none;
+  background:none;
+  border:none;
+  color:white;
+  font-size:1.5rem;
+}
+
+.hero{
+  height:100vh;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  text-align:center;
+  overflow:hidden;
+}
+
+.hero-bg{
+  position:absolute;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+
+.overlay{
+  position:absolute;
+  width:100%;
+  height:100%;
+  background:rgba(0,0,0,0.6);
+}
+
+.hero-content{
+  position:relative;
+  z-index:2;
+  max-width:900px;
+  padding:20px;
+}
+
+.hero-tag{
+  color:#4ade80;
+  letter-spacing:2px;
+}
+
+.hero h1{
+  font-size:5rem;
+  margin:20px 0;
+  line-height:1.1;
+}
+
+.hero p{
+  font-size:1.1rem;
+  color:#d1d5db;
+  margin-bottom:40px;
+}
+
+.hero-button{
+  padding:15px 40px;
+  background:#4ade80;
+  color:black;
+  text-decoration:none;
+  border-radius:50px;
+  font-weight:600;
+  transition:.3s;
+}
+
+.hero-button:hover{
+  transform:translateY(-5px);
+}
+
+.about{
+  padding:120px 8%;
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:80px;
+  align-items:center;
+}
+
+.about-image img{
+  border-radius:25px;
+}
+
+.section-tag{
+  color:#4ade80;
+  letter-spacing:2px;
+}
+
+.about-content h2{
+  font-size:3rem;
+  margin:20px 0;
+}
+
+.about-content p{
+  color:#cbd5e1;
+  line-height:1.8;
+}
+
+.glass-card{
+  margin-top:40px;
+  padding:25px;
+  border-radius:25px;
+  background:rgba(255,255,255,0.05);
+  backdrop-filter:blur(10px);
+  display:flex;
+  gap:20px;
+  align-items:center;
+}
+
+.glass-card i{
+  font-size:2rem;
+  color:#4ade80;
+}
+
+.cards-section{
+  padding:120px 8%;
+}
+
+.section-center{
+  text-align:center;
+  margin-bottom:70px;
+}
+
+.section-center h2{
+  font-size:3rem;
+  margin-top:15px;
+}
+
+.cards-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+  gap:30px;
+}
+
+.card{
+  padding:40px;
+  background:rgba(255,255,255,0.04);
+  border:1px solid rgba(255,255,255,0.05);
+  border-radius:25px;
+  transition:.4s;
+}
+
+.card:hover{
+  transform:translateY(-10px);
+  background:rgba(255,255,255,0.08);
+}
+
+.card i{
+  font-size:2rem;
+  color:#4ade80;
+  margin-bottom:20px;
+}
+
+.card h3{
+  margin-bottom:15px;
+}
+
+.card p{
+  color:#cbd5e1;
+}
+
+.stats{
+  padding:120px 8%;
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  flex-wrap:wrap;
+}
+
+.stat-box{
+  text-align:center;
+}
+
+.stat-box h2{
+  font-size:4rem;
+  color:#4ade80;
+}
+
+.gallery{
+  padding:120px 8%;
+}
+
+.gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+  gap:20px;
+}
+
+.gallery-grid img{
+  height:350px;
+  object-fit:cover;
+  border-radius:20px;
+  transition:.4s;
+}
+
+.gallery-grid img:hover{
+  transform:scale(1.03);
+}
+
+.footer{
+  padding:60px 8%;
+  text-align:center;
+  border-top:1px solid rgba(255,255,255,0.08);
+}
+
+.footer p{
+  margin-top:10px;
+  color:#94a3b8;
+}
+
+@media(max-width:900px){
+
+  .hero h1{
+    font-size:3rem;
+  }
+
+  .about{
+    grid-template-columns:1fr;
+  }
+
+  .navbar{
+    display:none;
+  }
+
+  #menu-btn{
+    display:block;
+  }
+
+}
+```
+
+---
+
+## script.js
+
+```javascript
+const counters = document.querySelectorAll('.counter');
+
+counters.forEach(counter => {
+
+  counter.innerText = '0';
+
+  const updateCounter = () => {
+
+    const target = +counter.getAttribute('data-target');
+    const current = +counter.innerText;
+
+    const increment = target / 100;
+
+    if(current < target){
+
+      counter.innerText = `${Math.ceil(current + increment)}`;
+
+      setTimeout(updateCounter, 20);
+
+    } else {
+
+      counter.innerText = target;
+
+    }
+
+  };
+
+  updateCounter();
+
+});
+```
